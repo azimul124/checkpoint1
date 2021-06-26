@@ -1,0 +1,218 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.header {
+  background-color: #10175a;
+  padding: 32px;
+  text-align: center;
+}
+.header a {
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  margin-left: 20px;
+  color: #ffffff;
+  font-size: 24px;
+}
+.header .active {
+  color: green;
+}
+.heading {
+  font-size: 36px;
+  text-align: center;
+  padding: 32px;
+  font-weight: 500;
+}
+.title {
+  font-size: 20px;
+  text-align: center;
+}
+.box-1-2 {
+  width: 200px;
+  height: 200px;
+  background-color: #99d8ca;
+  margin: 32px auto;
+  border: 16px solid #5873e2;
+  box-shadow: 0 0 0 20px #90ffa9;
+  outline: 6px solid #0d1430;
+}
+.color-code-wrapper {
+  text-align: center;
+}
+.color-code {
+  display: inline-block;
+  margin-right: 8px;
+  margin: 32px auto;
+  padding-right: 24px;
+}
+.box {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.color-1 {
+  background-color: #99d8ca;
+}
+.color-2 {
+  background-color: #0d1430;
+}
+.color-3 {
+  background-color: #90ffa9;
+}
+.color-4 {
+  background-color: #5873e2;
+}
+.line-break {
+  border: 1px dashed;
+  width: 70%;
+  margin: 0 auto;
+}
+.heading-2 {
+  font-size: 20px;
+  text-align: center;
+  padding: 32px;
+}
+.box-1 {
+  width: 668px;
+  border: 2px solid;
+  margin: 0 auto;
+}
+.box-1-3 {
+  width: 200px;
+  height: 180px;
+  /* border: 2px solid; */
+  margin: 10px;
+  display: inline-block;
+  background-color: #dae1fa;
+}
+.line-break-2 {
+  margin: 16px auto;
+}
